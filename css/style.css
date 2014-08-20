@@ -1,0 +1,18 @@
+h1,h2{text-align: center;color: #428BCA;}
+.list-view  div{overflow: auto;}
+.nav > li {float: left;}
+.clear{clear: both;}
+.textcentr{text-align: center;}
+.inputZone{width: 92%; margin: auto;}
+.inputZone label{min-width: 142px;}
+.inputZone .btn{width: 100%;margin-top: 20px;}
+#footer{text-align: center; margin-top: 50px;}
+#sidebar{margin-top: 60px;border: 1px solid #000000;border-radius: 5px;}
+#sidebar li{width: 100%; text-align: center;}
+.portlet-title{font-size: 18px; text-align: center;}
+#exit{font-size: 20px;}
+.new{margin-top: 30px;}
+.new a,.but a{width: 100%;}
+.but{margin-bottom: 20px;}
+.view{margin-bottom: 20px;}
+
