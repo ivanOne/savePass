@@ -3,7 +3,7 @@
 	    <h2><?php echo CHtml::encode($data->name); ?></h2>
 	    <p class="text-center"><strong><?php echo CHtml::encode($data->getAttributeLabel('info')); ?>:</strong></p>
         <br />
-        <div>
+        <div class="descr">
 	        <?php echo CHtml::encode($data->info); ?>
         </div>
 	    <br />

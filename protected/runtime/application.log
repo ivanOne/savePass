@@ -7546,3 +7546,13 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/index.php/superuser/
 ---
+2014/08/20 19:43:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loguin".' in D:\web_dev\openserv\OpenServer\domains\starCMSBack\frame\framework\web\CController.php:483
+Stack trace:
+#0 D:\web_dev\openserv\OpenServer\domains\starCMSBack\frame\framework\web\CController.php(270): CController->missingAction('loguin')
+#1 D:\web_dev\openserv\OpenServer\domains\starCMSBack\frame\framework\web\CWebApplication.php(282): CController->run('loguin')
+#2 D:\web_dev\openserv\OpenServer\domains\starCMSBack\frame\framework\web\CWebApplication.php(141): CWebApplication->runController('superuser/users...')
+#3 D:\web_dev\openserv\OpenServer\domains\starCMSBack\frame\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\web_dev\openserv\OpenServer\domains\starCMSBack\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/superuser/loguin
+---

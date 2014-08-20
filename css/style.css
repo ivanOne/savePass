@@ -1,5 +1,5 @@
 h1,h2{text-align: center;color: #428BCA;}
-.list-view  div{overflow: auto;}
+.list-view  .descr{overflow: auto;}
 .nav > li {float: left;}
 .clear{clear: both;}
 .textcentr{text-align: center;}
